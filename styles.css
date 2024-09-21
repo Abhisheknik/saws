@@ -14,7 +14,7 @@
   
   /* Navigation */
   .navbar {
-    background: rgba(67, 159, 208, 0.5); /* Semi-transparent background */
+    background: rgba(243, 243, 243, 0.5); /* Semi-transparent background */
     padding: 0rem 2rem;
     position: sticky;
     top: 0;
@@ -44,7 +44,7 @@
 
 .navbar .nav-links li a {
   text-decoration: none;
-  color: #fff; /* Set your preferred color */
+  color: #000; /* Set your preferred color */
   font-weight: 600;
 }
 
@@ -272,7 +272,7 @@
   /* Features Section */
   .features {
     padding: 4rem 0;
-    background-color: #eef2f3;
+    background-color: #cfe8efcf;
   }
   .features .container {
     max-width: 1200px;
@@ -365,9 +365,9 @@
   
   /* Footer */
   .footer {
-    background-color: rgb(67, 159, 208); /* Semi-transparent background */
+    background-color: #cfe8efcf; /* Semi-transparent background */
 
-    color: white;
+    color: #000;
     padding: 1.5rem;
     text-align: center;
   }
@@ -376,8 +376,48 @@
     margin: 0 auto;
   }
   .social-links a {
-    color: white;
+    color: #000;
     margin: 0 0.5rem;
     text-decoration: none;
   }
   
+
+  /* Video Section */
+.video-demo {
+  padding: 60px 0;
+  background-color: #f9f9f9;
+}
+
+.video-demo .section-title {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  justify-items: center;
+}
+
+.video-card {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.video-card video {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.video-card p {
+  margin-top: 10px;
+  font-size: 1.1rem;
+  color: #555;
+}
